@@ -1,0 +1,31 @@
+{
+  "name": "back-test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t3fox/begoTest.git"
+  },
+  "author": "t3fox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t3fox/begoTest/issues"
+  },
+  "homepage": "https://github.com/t3fox/begoTest#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  }
+}
